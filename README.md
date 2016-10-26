@@ -4,6 +4,8 @@
 
 Easily create a Coming Soon or Maintenance Mode page. You can work on your website while visitors see only the page you create. The page you create is fully customizable, and you can even use a regular WordPress page as you Coming Soon page. Create a _Page Template_ and use it as you Maintenance Mode page to show any content you wish.
 
+> This plugin requires [Genesis Framework](http://www.studiopress.com/ "Buy Genesis from StudioPress") to be installed and activated.
+
 ## Features and Options:
 
 * Completely Customizable
@@ -15,5 +17,3 @@ Easily create a Coming Soon or Maintenance Mode page. You can work on your websi
 * Live Preview
 * Translation Ready, i18n Support
 * Use your Own Page Templates
-
-> This plugin requires [Genesis Framework](http://www.studiopress.com/ "Buy Genesis from StudioPress") to be installed and activated.
