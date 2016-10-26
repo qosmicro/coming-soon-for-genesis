@@ -1,0 +1,168 @@
+/*
+
+Genesis Coming Soon Page
+https://qosmicro.com/scripts/genesis-coming-soon-page
+ _____     _____ _____ _             
+|     |___|   __|     |_|___ ___ ___ 
+|  |  | . |__   | | | | |  _|  _| . |
+|__  _|___|_____|_|_|_|_|___|_| |___|
+   |__|                              
+
+================================================================== */
+
+
+/* Table TH */
+
+.genesis-coming-soon th.option-title {
+	width: 160px;
+}
+
+	.genesis-coming-soon th.option-title span {
+		width: 160px;
+		display: block;
+	}
+
+
+/* Color Controls */
+
+.genesis-coming-soon .wp-picker-container .wp-color-result {
+	height: 26px;
+	line-height: 26px;
+}
+
+	.genesis-coming-soon .wp-picker-container .wp-color-result:after {
+		font-size: 13px;
+		line-height: 26px;
+		padding: 0 10px 0px;
+	}
+
+.genesis-coming-soon .wp-picker-container input.wp-color-picker {
+	height: 27px;
+	line-height: 19px;
+	vertical-align: bottom;
+}
+
+.genesis-coming-soon .wp-picker-container input.wp-picker-clear {
+	height: 28px;
+	font-size: 13px;
+	line-height: 26px;
+	padding: 0 10px 1px;
+}
+
+
+@media screen and (max-width: 782px) {
+
+	/*  Buttons */
+
+	.genesis-coming-soon a.button-secondary {
+		height: 33px;
+		font-size: 14px;
+		line-height: 31px;
+	}
+
+	/* Color Controls */
+
+	.genesis-coming-soon .wp-picker-container .wp-color-result {
+		height: 31px;
+		line-height: 31px;
+	}
+
+		.genesis-coming-soon .wp-picker-container .wp-color-result:after {
+			font-size: 14px;
+			line-height: 31px;
+			padding: 0 10px 0px;
+		}
+
+	.genesis-coming-soon .wp-picker-container input.wp-color-picker {
+		width: 85px;
+		height: auto;
+		font-size: 16px;
+		line-height: 1.5;
+		vertical-align: top;
+		padding: 3px 10px 4px;
+	}
+	
+		.genesis-coming-soon .wp-picker-container.wp-picker-active input.wp-color-picker {
+			display: inline-block !important;
+		}
+
+	.genesis-coming-soon .wp-picker-container input.wp-picker-clear {
+		height: auto;
+		font-size: 14px;
+		padding: 6px 14px;
+		line-height: normal;
+	}
+
+}
+
+
+/* Toolbar */
+
+#wpadminbar #wp-admin-bar-gcs-bar-message .ab-item {
+	color: #ffffff;
+	background: #ff0000;
+}
+
+	#wpadminbar #wp-admin-bar-gcs-bar-message .ab-item .ab-icon {
+		display: none;
+		padding-top: 4px;
+		box-sizing: border-box;
+	}
+
+		#wpadminbar #wp-admin-bar-gcs-bar-message .ab-item .ab-icon:before {
+			color: #ffffff;
+			content: '\f534';
+		}
+
+#wpadminbar #wp-admin-bar-gcs-bar-message.hover .ab-item, 
+#wpadminbar #wp-admin-bar-gcs-bar-message.hover .ab-item span.ab-label, 
+#wpadminbar:not(.mobile) #wp-admin-bar-gcs-bar-message:hover .ab-item, 
+#wpadminbar:not(.mobile) #wp-admin-bar-gcs-bar-message:hover .ab-item span.ab-label, 
+#wpadminbar:not(.mobile) #wp-admin-bar-gcs-bar-message .ab-item:focus, 
+#wpadminbar:not(.mobile) #wp-admin-bar-gcs-bar-message .ab-item:focus span.ab-label {
+	color: #ffff00;
+	background: #ff0000;
+}
+
+@media screen and (max-width: 782px) {
+
+	#wpadminbar #wp-admin-bar-gcs-bar-message {
+		display: list-item;
+	}
+
+		#wpadminbar #wp-admin-bar-gcs-bar-message .ab-item .ab-icon span.ab-label {
+			display: none;
+		}
+
+		#wpadminbar #wp-admin-bar-gcs-bar-message .ab-item .ab-icon {
+			display: block;
+		}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- end */
