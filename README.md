@@ -1,10 +1,10 @@
-# Genesis Coming Soon
+# Coming Soon for Genesis
 
-**Genesis Coming Soon allows you to create a Coming Soon, Under Construction or Maintenance page while taking advantage of all the Genesis Framework features.**
+**This plugin allows you to create a Coming Soon, Under Construction or Maintenance page while taking advantage of all the Genesis Framework features.**
 
 Easily create a Coming Soon or Maintenance Mode page. You can work on your website while visitors see only the page you create. The page you create is fully customizable, and you can even use a regular WordPress page as you Coming Soon page. Create a _Page Template_ and use it as you Maintenance Mode page to show any content you wish.
 
-> This plugin requires [Genesis Framework](http://www.studiopress.com/ "Buy Genesis from StudioPress") to be installed and activated.
+> This plugin requires [Genesis Framework](http://www.studiopress.com/ "Buy Genesis from StudioPress") to be installed and activated. Plugin author is a third-party developer who is not affiliated with StudioPress, the owner of the Genesis Framework.
 
 ## Features and Options:
 

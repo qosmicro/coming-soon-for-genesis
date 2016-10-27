@@ -1,7 +1,7 @@
 <?php /*
 
 Plugin Name: Genesis Coming Soon
-Plugin URI: https://qosmicro.com/plugins/genesis-coming-soon
+Plugin URI: https://qosmicro.com/plugins/coming-soon-for-genesis
 Description: Genesis Coming Soon allows you to create a simple soming soon page while keeping all features that Genesis offers.
 Author: QoSMicro
 Author URI: https://qosmicro.com/
@@ -9,10 +9,10 @@ Author URI: https://qosmicro.com/
 Text Domain: genesis-coming-soon
 Domain Path: /languages
 
-Version: 0.1
+Version: 1.0.0
 
-License: GNU General Public License v2.0
-License URI: http://www.opensource.org/licenses/gpl-license.php
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl.html
 
  _____     _____ _____ _             
 |     |___|   __|     |_|___ ___ ___ 
@@ -51,7 +51,7 @@ function gcs_deactivation() {
 //* Deactivate Genesis Coming Soon
 function gcs_deactivate( $genesis_version = '2.3.0', $wp_version = '4.4.2' ) {
 	deactivate_plugins( plugin_basename( __FILE__ ) );
-	wp_die( sprintf( __( 'Sorry, you cannot run Genesis Coming Soon without WordPress %s and <a href="%s">Genesis %s</a>, or greater.', 'genesis-coming-soon' ), $wp_version, 'http://www.studiopress.com/', $genesis_version ) );
+	wp_die( sprintf( __( 'Sorry, you cannot run Genesis Coming Soon without WordPress %s and <a href="%s">Genesis %s</a>, or greater.', 'coming-soon-for-genesis' ), $wp_version, 'http://www.studiopress.com/', $genesis_version ) );
 }
 
 
@@ -60,7 +60,7 @@ add_action( 'genesis_init', 'gcs_genesis_init', 20 );
 function gcs_genesis_init() {
 
 	# Load translations
-	load_plugin_textdomain( 'genesis-coming-soon', false, 'genesis-coming-soon/languages' );
+	load_plugin_textdomain( 'coming-soon-for-genesis', false, 'genesis-coming-soon/languages' );
 
 	if( ! is_admin() ) {
 
@@ -132,10 +132,10 @@ function gcs_admin_bar_menu( $wp_admin_bar ) {
 
 	switch( $op_status ) {
 		case 'coming_soon':
-			$message .= __('Coming Soon Mode Active','genesis-coming-soon');
+			$message .= __('Coming Soon Mode Active','coming-soon-for-genesis');
 			break;
 		case 'maintenance':
-			$message .= __('Maintenance Mode Active','genesis-coming-soon');
+			$message .= __('Maintenance Mode Active','coming-soon-for-genesis');
 			break;
 		default:
 			return;

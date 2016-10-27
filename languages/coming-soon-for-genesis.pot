@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: Genesis Coming Soon Page\n"
-"POT-Creation-Date: 2016-09-05 11:34-0500\n"
+"Project-Id-Version: Genesis Coming Soon\n"
+"POT-Creation-Date: 2016-10-27 00:46-0500\n"
 "PO-Revision-Date: 2016-09-05 11:34-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -15,8 +15,8 @@ msgstr ""
 "X-Poedit-WPHeader: plugin.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -354,30 +354,30 @@ msgid ""
 "\"%s\">Genesis %s</a>, or greater."
 msgstr ""
 
-#: plugin.php:127
+#: plugin.php:135
 msgid "Coming Soon Mode Active"
 msgstr ""
 
-#: plugin.php:130
+#: plugin.php:138
 msgid "Maintenance Mode Active"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "Genesis Coming Soon Page"
+msgid "Genesis Coming Soon"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://qosmicro.com/plugins/genesis-coming-soon-page"
+msgid "https://qosmicro.com/plugins/coming-soon-for-genesis"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Genesis Coming Soon Page allows you to create a simple soming soon page "
-"while keeping all features that Genesis offers."
+"Genesis Coming Soon allows you to create a simple soming soon page while "
+"keeping all features that Genesis offers."
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "QoSMicro.com"
+msgid "QoSMicro"
 msgstr ""
 
 #. Author URI of the plugin/theme

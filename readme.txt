@@ -5,8 +5,8 @@ Tags: genesis, genesiswp, studiopress, coming soon, coming soon page, constructi
 Requires at least: 4.4.2
 Tested up to: 4.6
 Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
 
 This plugin allows you to create a Coming Soon, Under Construction or Maintenance page while taking advantage of all the Genesis Framework features.
 
@@ -30,7 +30,7 @@ Easily create a Coming Soon or Maintenance Mode page. You can work on your websi
 
 > This plugin is and will always be free. We will not create a _PRO_ version and you will never need to pay anything. All improvements we do in the future will be available to all users.
 
-**\* This plugin requires [Genesis Framework](http://www.studiopress.com/ "Buy Genesis from StudioPress") to be installed and activated.
+**\* This plugin requires [Genesis Framework](http://www.studiopress.com/ "Buy Genesis from StudioPress") to be installed and activated. Plugin author is a third-party developer who is not affiliated with StudioPress, the owner of the Genesis Framework.
 
 == Installation ==
 
@@ -45,15 +45,15 @@ Easily create a Coming Soon or Maintenance Mode page. You can work on your websi
 
 1. Navigate to the 'Add New' in the plugins dashboard
 2. Navigate to the 'Upload' area
-3. Select `genesis-coming-soon.zip` from your computer
+3. Select `coming-soon-for-genesis.zip` from your computer
 4. Click 'Install Now'
 5. Activate the plugin in the Plugin dashboard
 
 = Using FTP =
 
-1. Download `genesis-coming-soon.zip`
-2. Extract the `genesis-coming-soon` directory to your computer
-3. Upload the `genesis-coming-soon` directory to the `/wp-content/plugins/` directory
+1. Download `coming-soon-for-genesis.zip`
+2. Extract the `coming-soon-for-genesis` directory to your computer
+3. Upload the `coming-soon-for-genesis` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin's dashboard
 
 == Frequently Asked Questions ==

@@ -1,7 +1,7 @@
 <?php /*
 
-Genesis Coming Soon Page
-https://qosmicro.com/scripts/genesis-coming-soon-page
+Genesis Coming Soon
+https://qosmicro.com/plugins/coming-soon-for-genesis
  _____     _____ _____ _             
 |     |___|   __|     |_|___ ___ ___ 
 |  |  | . |__   | | | | |  _|  _| . |
