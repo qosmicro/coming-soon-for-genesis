@@ -1,8 +1,8 @@
 <?php /*
 
-Plugin Name: Genesis Coming Soon Page
-Plugin URI: https://qosmicro.com/plugins/genesis-coming-soon-page
-Description: Genesis Coming Soon Page allows you to create a simple soming soon page while keeping all features that Genesis offers.
+Plugin Name: Genesis Coming Soon
+Plugin URI: https://qosmicro.com/plugins/genesis-coming-soon
+Description: Genesis Coming Soon allows you to create a simple soming soon page while keeping all features that Genesis offers.
 Author: QoSMicro
 Author URI: https://qosmicro.com/
 

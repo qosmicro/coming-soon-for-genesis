@@ -1,4 +1,4 @@
-=== Genesis Coming Soon Page ===
+=== Genesis Coming Soon ===
 Contributors: josemanuelsh
 Donate link: https://qosmicro.com/plugins/donations/
 Tags: genesis, genesiswp, studiopress, coming soon, coming soon page, construction, landing page, launch, launch page, maintenance, maintenance mode, offline, unavailable, under construction, under construction page
@@ -12,7 +12,7 @@ This plugin allows you to create a Coming Soon, Under Construction or Maintenanc
 
 == Description ==
 
-**Genesis Coming Soon Page allows you to create a Coming Soon, Under Construction or Maintenance page while taking advantage of all the Genesis Framework features.**
+**Genesis Coming Soon allows you to create a Coming Soon, Under Construction or Maintenance page while taking advantage of all the Genesis Framework features.**
 
 Easily create a Coming Soon or Maintenance Mode page. You can work on your website while visitors see only the page you create. The page you create is fully customizable, and you can even use a regular WordPress page as you Coming Soon page. Create a _Page Template_ and use it as you Maintenance Mode page to show any content you wish.
 
