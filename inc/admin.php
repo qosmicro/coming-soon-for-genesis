@@ -60,6 +60,7 @@ class Genesis_Coming_Soon_Admin extends Genesis_Admin_Boxes {
 			'fonts'      => '0',
 			'boxcolor'   => 'none',
 			'customcss'  => '',
+			'customfun'  => '',
 		);
 
 		$this->create( $page_id, $menu_ops, $page_ops, $settings_field, $default_settings );
@@ -96,6 +97,7 @@ class Genesis_Coming_Soon_Admin extends Genesis_Admin_Boxes {
 				'linkcolor',
 				'boxcolor',
 				'customcss',
+				'customfun',
 			)
 		);
 
@@ -237,7 +239,7 @@ class Genesis_Coming_Soon_Admin extends Genesis_Admin_Boxes {
 						<label for="<?php $this->field_id('headline'); ?>" class="screen-reader-text"><?php _e( 'Headline', 'coming-soon-for-genesis' ); ?></label>
 						<input type="text" name="<?php $this->field_name('headline'); ?>" id="<?php $this->field_id('headline'); ?>" value="<?php echo esc_attr( $this->get_field_value('headline') ); ?>" class="regular-text">
 						<br>
-						<span class="description"><?php printf( __( 'Enter the %s headline for your page.', 'genesis' ), genesis_code( '<h1>' ) ); ?></span>
+						<span class="description"><?php printf( __( 'Enter the %s headline for your page.', 'coming-soon-for-genesis' ), genesis_code( '<h1>' ) ); ?></span>
 					</p>
 				</td>
 			</tr>
@@ -507,7 +509,29 @@ class Genesis_Coming_Soon_Admin extends Genesis_Admin_Boxes {
 					<p>
 						<label for="<?php $this->field_id('customcss'); ?>" class="screen-reader-text"><?php _e( 'Custom CSS', 'coming-soon-for-genesis' ); ?></label>
 						<textarea spellcheck="false" name="<?php $this->field_name('customcss'); ?>" id="<?php $this->field_id( 'customcss' ); ?>" class="large-text" rows="6"><?php echo esc_attr( $this->get_field_value('customcss') ); ?></textarea>
-						<span class="description"><?php printf( __( 'Add your custom CSS here. No need to include the %s tag.', 'genesis' ), genesis_code( '<style>' ) ); ?></span>
+						<span class="description"><?php printf( __( 'Add your custom CSS here. No need to include the %s tag.', 'coming-soon-for-genesis' ), genesis_code( '<style>' ) ); ?></span>
+					</p>
+				</td>
+			</tr>
+
+			<tr valign="top">
+				<th scope="row" class="option-title"><span><?php _e( 'Custom Functions', 'coming-soon-for-genesis' ); ?></span></th>
+				<td>
+					<p>
+						<label for="<?php $this->field_id('customfun'); ?>" class="screen-reader-text"><?php _e( 'Custom Functions', 'coming-soon-for-genesis' ); ?></label>
+						<input type="text" name="<?php $this->field_name('customfun'); ?>" id="<?php $this->field_id('customfun'); ?>" value="<?php echo esc_attr( $this->get_field_value('customfun') ); ?>" class="large-text">
+						<br>
+						<span class="description">
+							<?php _e( 'The plugin will do its best to hide the header and footer from the Coming Soon Page.', 'coming-soon-for-genesis' ); ?><br>
+							<?php _e( 'If you reposition something to customize your theme, it may not be recognized by the plugin.', 'coming-soon-for-genesis' ); ?><br>
+							<?php _e( 'You can write the functions you want the plugin to ignore separating them by commas. For instance, if you theme has something like...', 'coming-soon-for-genesis' ); ?><br>
+							<code class="blockcode">
+							remove_action( 'genesis_footer', 'genesis_do_footer' );<br>
+							add_action( 'genesis_after', 'genesis_do_footer', 10 );<br>
+							add_action( 'genesis_after', 'custom_extra_footer', 15 );
+							</code><br>
+							<?php _e( '... this value should be: ', 'coming-soon-for-genesis' ); ?><code>genesis_do_footer,custom_extra_footer</code>.
+						</span>
 					</p>
 				</td>
 			</tr>

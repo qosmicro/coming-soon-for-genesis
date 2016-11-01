@@ -49,6 +49,12 @@ https://qosmicro.com/plugins/coming-soon-for-genesis
 	padding: 0 10px 1px;
 }
 
+.genesis-coming-soon .blockcode {
+	width: auto;
+	display: inline-block;
+	margin: 5px 0 8px 0;
+}
+
 
 @media screen and (max-width: 782px) {
 

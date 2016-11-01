@@ -347,14 +347,20 @@ class Genesis_Coming_Soon_Front {
 		$this->find_and_remove( 'genesis_get_comments_template' );
 
 		#Remove Header
-		$this->find_and_remove( 'genesis_do_header' );
-		$this->find_and_remove( 'genesis_header_markup_open' );
-		$this->find_and_remove( 'genesis_header_markup_close' );
+		$this->find_and_remove( 'genesis_header', 'all' );
+		$this->find_and_remove( 'genesis_after_header', 'all' );
+		$this->find_and_remove( 'genesis_before_header', 'all' );
 
 		#Remove Footer
-		$this->find_and_remove( 'genesis_do_footer' );
-		$this->find_and_remove( 'genesis_footer_markup_open' );
-		$this->find_and_remove( 'genesis_footer_markup_close' );
+		$this->find_and_remove( 'genesis_footer', 'all' );
+		$this->find_and_remove( 'genesis_after_footer', 'all' );
+		$this->find_and_remove( 'genesis_before_footer', 'all' );
+
+		#Remove Custom Functions
+		if( '' != $this->options['customfun'] ) {
+			$ignore_functions = explode( ',', $this->options['customfun'] );
+			foreach( $ignore_functions as $function ) $this->find_and_remove( $function );
+		}
 
 		#Force full width content layout
 		add_filter( 'genesis_site_layout', '__genesis_return_full_width_content' );
@@ -366,12 +372,13 @@ class Genesis_Coming_Soon_Front {
 
 
 	// Finds & Remoces Actions
-	protected function find_and_remove( $action = '' ) {
+	protected function find_and_remove( $remove = '', $filter = '' ) {
 		global $wp_filter;
 		foreach( $wp_filter as $tag => $actions ) 
 			foreach( $actions as $priority => $functions )
 				foreach( $functions as $function => $data )
-					if( $action == $function ) remove_action( $tag, $function, $priority );
+					if( $remove == $function || 
+					  ( $remove == $tag && 'all' == $filter )) remove_action( $tag, $function, $priority );
 	}
 
 }
