@@ -2,8 +2,8 @@
 
 Plugin Name: Genesis Coming Soon
 Plugin URI: https://qosmicro.com/plugins/coming-soon-for-genesis
-Description: Genesis Coming Soon allows you to create a simple soming soon page while keeping all features that Genesis offers.
-Author: QoSMicro
+Description: Genesis Coming Soon allows you to create a simple coming soon page while keeping all features that Genesis offers.
+Author: Jose Manuel Sanchez
 Author URI: https://qosmicro.com/
 
 Text Domain: genesis-coming-soon
@@ -24,7 +24,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 
 //* Define Constants
-define( 'GCS_VERSION', '0.1' );
+define( 'GCS_VERSION', '1.0.0' );
 define( 'GCS_SETTINGS', 'gcs-settings' );
 define( 'GCS_PLUGIN_DIR', dirname( __FILE__ ) );
 
