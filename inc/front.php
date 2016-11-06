@@ -142,6 +142,10 @@ class Genesis_Coming_Soon_Front {
 	// Display Custom Content
 	public function coming_soon_content() {
 		?>
+		<div id="gcs-custom-imagebg"></div>
+		<?php if( $this->options['bgdim']!='' ) : ?>
+		<div id="gcs-custom-imageover"></div>
+		<?php endif; ?>
 		<div id="gcs-custom-content">
 			<?php if( $this->options['logo']!='' ) : ?>
 				<img id="gcs-custom-logo" src="<?php echo $this->options['logo']; ?>" alt="<?php echo $this->options['headline']; ?>">
@@ -154,7 +158,7 @@ class Genesis_Coming_Soon_Front {
 			<?php endif; ?>
 		</div>
 		<style type="text/css">
-			.gcs-custom-html {
+			#gcs-custom-imagebg {
 				<?php if( $this->options['bgimage']!='' ) : ?>
 				background: <?php echo $this->options['bgcolor']; ?> url('<?php echo $this->options['bgimage']; ?>') <?php echo $this->options['repeatbg']; ?> <?php echo $this->options['positionbg']; ?>;
 				<?php else : ?>
@@ -164,7 +168,7 @@ class Genesis_Coming_Soon_Front {
 				background-size: cover !important;
 				<?php endif; ?>
 			}
-			.gcs-custom-body {
+			#gcs-custom-imageover {
 				<?php if( $this->options['bgdim']!='' ) : ?>
 				background: rgba(0, 0, 0, 0.5);
 				<?php endif; ?>

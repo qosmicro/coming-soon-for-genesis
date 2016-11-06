@@ -52,10 +52,25 @@ https://qosmicro.com/plugins/coming-soon-for-genesis
 		position: absolute;
 	}
 
+	#gcs-custom-imagebg,
+	#gcs-custom-imageover {
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 100;
+		position: fixed;
+	}
+
+	#gcs-custom-imageover {
+		z-index: 200;
+	}
+
 	#gcs-custom-content {
 		margin: 0;
 		padding: 1.5%;
 		width: 500px;
+		z-index: 300;
 		overflow: hidden;
 		position: absolute;
 		text-align: center;
