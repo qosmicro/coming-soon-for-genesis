@@ -21,6 +21,12 @@ class Genesis_Coming_Soon_Admin extends Genesis_Admin_Boxes {
 	}
 
 
+	//* HTML Editor for Meta Boxes
+	function gcs_html_editor( $content ) {
+		wp_editor( $content['text'], $content['id'], $content['args'] );
+	}
+
+
 	// Create an admin menu item and settings page.
 	public function __construct() {
 
@@ -133,6 +139,9 @@ class Genesis_Coming_Soon_Admin extends Genesis_Admin_Boxes {
 
 	// Register Meta Boxes
 	function metaboxes() {
+		# Editor Fix to Include in Metabox
+		add_action( 'edit_form_advanced', array( $this, 'gcs_html_editor' ) ); 
+		# Add Metaboxes
 		add_meta_box( 'genesis-coming-soon-general', __( 'General', 'coming-soon-for-genesis' ), array( $this, 'general_box' ), $this->pagehook, 'main', 'high' );
 		add_meta_box( 'genesis-coming-soon-content', __( 'Content', 'coming-soon-for-genesis' ), array( $this, 'content_box' ), $this->pagehook, 'main', 'default' );
 		add_meta_box( 'genesis-coming-soon-background-design', __( 'Background Design', 'coming-soon-for-genesis' ), array( $this, 'background_design_box' ), $this->pagehook, 'main', 'default' );

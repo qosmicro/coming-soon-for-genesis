@@ -3,8 +3,8 @@ Contributors: josemanuelsh
 Donate link: https://qosmicro.com/plugins/donations/
 Tags: genesis, genesiswp, studiopress, coming soon, coming soon page, construction, landing page, launch, launch page, maintenance, maintenance mode, offline, unavailable, under construction, under construction page
 Requires at least: 4.4.2
-Tested up to: 4.6
-Stable tag: 1.0.1
+Tested up to: 4.6.1
+Stable tag: 1.0.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -76,6 +76,9 @@ Yes.
 2. Plugin Options Page
 
 == Changelog ==
+
+= 1.0.2 =
+* Fixed bug that had HTML conflicting in Edit Post page
 
 = 1.0.1 =
 * Fixed bug that hid background images if body had a background color in CSS
