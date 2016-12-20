@@ -352,11 +352,13 @@ class Genesis_Coming_Soon_Front {
 
 		#Remove Header
 		$this->find_and_remove( 'genesis_header', 'all' );
+		$this->find_and_remove( 'genesis_do_header', 'all' );
 		$this->find_and_remove( 'genesis_after_header', 'all' );
 		$this->find_and_remove( 'genesis_before_header', 'all' );
 
 		#Remove Footer
 		$this->find_and_remove( 'genesis_footer', 'all' );
+		$this->find_and_remove( 'genesis_do_footer', 'all' );
 		$this->find_and_remove( 'genesis_after_footer', 'all' );
 		$this->find_and_remove( 'genesis_before_footer', 'all' );
 
@@ -378,6 +380,9 @@ class Genesis_Coming_Soon_Front {
 	// Finds & Remoces Actions
 	protected function find_and_remove( $remove = '', $filter = '' ) {
 		global $wp_filter;
+		echo '<!-- ';
+		var_dump($wp_filter);
+		echo ' -->';
 		foreach( $wp_filter as $tag => $actions ) 
 			foreach( $actions as $priority => $functions )
 				foreach( $functions as $function => $data )
