@@ -380,9 +380,6 @@ class Genesis_Coming_Soon_Front {
 	// Finds & Remoces Actions
 	protected function find_and_remove( $remove = '', $filter = '' ) {
 		global $wp_filter;
-		echo '<!-- ';
-		var_dump($wp_filter);
-		echo ' -->';
 		foreach( $wp_filter as $tag => $actions ) 
 			foreach( $actions as $priority => $functions )
 				foreach( $functions as $function => $data )
