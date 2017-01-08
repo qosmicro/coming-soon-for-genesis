@@ -154,7 +154,7 @@ class Genesis_Coming_Soon_Front {
 				<h1 id="gcs-custom-headline"><?php echo $this->options['headline']; ?></h1>
 			<?php endif; ?>
 			<?php if( $this->options['message']!='' ) : ?>
-				<div id="gcs-custom-message"><?php echo $this->options['message']; ?></div>
+				<div id="gcs-custom-message"><?php echo do_shortcode($this->options['message']); ?></div>
 			<?php endif; ?>
 		</div>
 		<style type="text/css">
