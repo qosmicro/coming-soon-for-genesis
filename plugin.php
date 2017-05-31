@@ -6,7 +6,7 @@ Description: Genesis Coming Soon allows you to create a simple coming soon page 
 Author: Jose Manuel Sanchez
 Author URI: https://qosmicro.com/
 
-Text Domain: genesis-coming-soon
+Text Domain: coming-soon-for-genesis
 Domain Path: /languages
 
 Version: 1.0.4
@@ -58,9 +58,6 @@ function gcs_deactivate( $genesis_version = '2.3.0', $wp_version = '4.4.2' ) {
 //* Plugin Initialization
 add_action( 'genesis_init', 'gcs_genesis_init', 20 );
 function gcs_genesis_init() {
-
-	# Load translations
-	load_plugin_textdomain( 'coming-soon-for-genesis', false, 'genesis-coming-soon/languages' );
 
 	if( ! is_admin() ) {
 
