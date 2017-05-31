@@ -9,7 +9,7 @@ Author URI: https://qosmicro.com/
 Text Domain: coming-soon-for-genesis
 Domain Path: /languages
 
-Version: 1.0.4
+Version: 1.0.6
 
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -24,7 +24,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 
 //* Define Constants
-define( 'GCS_VERSION', '1.0.3' );
+define( 'GCS_VERSION', '1.0.6' );
 define( 'GCS_SETTINGS', 'gcs-settings' );
 define( 'GCS_PLUGIN_DIR', dirname( __FILE__ ) );
 
