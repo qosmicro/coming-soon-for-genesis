@@ -9,7 +9,7 @@ Author URI: https://qosmicro.com/
 Text Domain: coming-soon-for-genesis
 Domain Path: /languages
 
-Version: 1.0.6
+Version: 1.0.7
 
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -24,7 +24,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 
 //* Define Constants
-define( 'GCS_VERSION', '1.0.6' );
+define( 'GCS_VERSION', '1.0.7' );
 define( 'GCS_SETTINGS', 'gcs-settings' );
 define( 'GCS_PLUGIN_DIR', dirname( __FILE__ ) );
 
@@ -145,6 +145,12 @@ function gcs_admin_bar_menu( $wp_admin_bar ) {
 
 }
 
+
+//* Load plugin textdomain
+add_action( 'plugins_loaded', 'gcs_load_textdomain' );
+function gcs_load_textdomain() {
+	load_plugin_textdomain( 'coming-soon-for-genesis', false, basename( dirname( __FILE__ ) ) . '/languages' ); 
+}
 
 
 

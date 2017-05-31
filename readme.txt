@@ -4,7 +4,7 @@ Donate link: https://qosmicro.com/plugins/donations/
 Tags: genesis, genesiswp, studiopress, coming soon, coming soon page, construction, landing page, launch, launch page, maintenance, maintenance mode, offline, unavailable, under construction, under construction page
 Requires at least: 4.4.2
 Tested up to: 4.7
-Stable tag: 1.0.4
+Stable tag: 1.0.7
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -76,6 +76,18 @@ Yes.
 2. Plugin Options Page
 
 == Changelog ==
+
+= 1.0.7 =
+* Added load_plugin_textdomain function
+
+= 1.0.6 =
+* Fixed Text Domain
+
+= 1.0.5 =
+* Added do_shortcode for Content
+
+= 1.0.4 =
+* Removed comments
 
 = 1.0.3 =
 * Removing genesis_do_header & genesis_do_footer by default
