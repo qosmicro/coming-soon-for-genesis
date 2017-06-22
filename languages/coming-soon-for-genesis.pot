@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Genesis Coming Soon\n"
-"POT-Creation-Date: 2016-11-30 10:56-0600\n"
+"POT-Creation-Date: 2016-10-27 00:46-0500\n"
 "PO-Revision-Date: 2016-09-05 11:34-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,357 +20,331 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: inc/admin.php:38
+#: inc/admin.php:32
 msgid "Genesis - Coming Soon Page"
 msgstr ""
 
-#: inc/admin.php:39
+#: inc/admin.php:33
 msgid "Coming Soon Page"
 msgstr ""
 
-#: inc/admin.php:145
+#: inc/admin.php:134
 msgid "General"
 msgstr ""
 
-#: inc/admin.php:146
+#: inc/admin.php:135
 msgid "Content"
 msgstr ""
 
-#: inc/admin.php:147
+#: inc/admin.php:136
 msgid "Background Design"
 msgstr ""
 
-#: inc/admin.php:148
+#: inc/admin.php:137
 msgid "Content Design"
 msgstr ""
 
-#: inc/admin.php:149
+#: inc/admin.php:138
 msgid "Extras"
 msgstr ""
 
-#: inc/admin.php:161 inc/admin.php:164
+#: inc/admin.php:150 inc/admin.php:153
 msgid "Status"
 msgstr ""
 
-#: inc/admin.php:167
+#: inc/admin.php:156
 msgid "Disabled"
 msgstr ""
 
-#: inc/admin.php:170
+#: inc/admin.php:159
 msgid "Enable Coming Soon Mode"
 msgstr ""
 
-#: inc/admin.php:173
+#: inc/admin.php:162
 msgid "Enable Maintenance Mode"
 msgstr ""
 
-#: inc/admin.php:177
+#: inc/admin.php:166
 msgid "When you are logged in you will see your normal website."
 msgstr ""
 
-#: inc/admin.php:179
+#: inc/admin.php:168
 #, php-format
 msgid ""
 "Logged out visitors will <a href=\"%s\" target=\"_blank\">see the Coming "
 "Soon or Maintenance page</a>."
 msgstr ""
 
-#: inc/admin.php:189 inc/admin.php:192
+#: inc/admin.php:178 inc/admin.php:181
 msgid "Page to Show"
 msgstr ""
 
-#: inc/admin.php:194
+#: inc/admin.php:183
 msgid "Coming Soon Settings Below"
 msgstr ""
 
-#: inc/admin.php:227 inc/admin.php:231
+#: inc/admin.php:216 inc/admin.php:220
 msgid "Logo"
 msgstr ""
 
-#: inc/admin.php:234
+#: inc/admin.php:223
 msgid "Select a Logo Image"
 msgstr ""
 
-#: inc/admin.php:235
+#: inc/admin.php:224
 msgid "Select Logo"
 msgstr ""
 
-#: inc/admin.php:236 inc/admin.php:306
+#: inc/admin.php:225 inc/admin.php:295
 msgid "Media Image Library"
 msgstr ""
 
-#: inc/admin.php:239
+#: inc/admin.php:228
 msgid "Upload a logo or teaser image (or) enter the url to your image."
 msgstr ""
 
-#: inc/admin.php:245 inc/admin.php:248
+#: inc/admin.php:234 inc/admin.php:237
 msgid "Headline"
 msgstr ""
 
-#: inc/admin.php:251
+#: inc/admin.php:240
 #, php-format
 msgid "Enter the %s headline for your page."
 msgstr ""
 
-#: inc/admin.php:257 inc/admin.php:259
+#: inc/admin.php:246 inc/admin.php:248
 msgid "Message"
 msgstr ""
 
-#: inc/admin.php:266
+#: inc/admin.php:255
 msgid "Tell the visitor what to expect from your site."
 msgstr ""
 
-#: inc/admin.php:285 inc/admin.php:288
+#: inc/admin.php:274 inc/admin.php:277
 msgid "Background Color"
 msgstr ""
 
-#: inc/admin.php:291
+#: inc/admin.php:280
 msgid "By default images will cover the entire background."
 msgstr ""
 
-#: inc/admin.php:297 inc/admin.php:301
+#: inc/admin.php:286 inc/admin.php:290
 msgid "Background Image"
 msgstr ""
 
-#: inc/admin.php:304
+#: inc/admin.php:293
 msgid "Select a Background"
 msgstr ""
 
-#: inc/admin.php:305
+#: inc/admin.php:294
 msgid "Select Background"
 msgstr ""
 
-#: inc/admin.php:309
+#: inc/admin.php:298
 msgid "Use a full size image to prevent a blurry or pixelated background."
 msgstr ""
 
-#: inc/admin.php:315
+#: inc/admin.php:304
 msgid "Dim Background"
 msgstr ""
 
-#: inc/admin.php:319 inc/admin.php:331 inc/admin.php:404
+#: inc/admin.php:308 inc/admin.php:320 inc/admin.php:393
 msgid "Yes"
 msgstr ""
 
-#: inc/admin.php:321
+#: inc/admin.php:310
 msgid "This will add an overlay over your image dimming it."
 msgstr ""
 
-#: inc/admin.php:327
+#: inc/admin.php:316
 msgid "Responsive Background"
 msgstr ""
 
-#: inc/admin.php:333
+#: inc/admin.php:322
 msgid "The background area is completely covered by the background image."
 msgstr ""
 
-#: inc/admin.php:339 inc/admin.php:342
+#: inc/admin.php:328 inc/admin.php:331
 msgid "Repeat Background"
 msgstr ""
 
-#: inc/admin.php:344
+#: inc/admin.php:333
 msgid "No Repeat"
 msgstr ""
 
-#: inc/admin.php:345
+#: inc/admin.php:334
 msgid "Tile"
 msgstr ""
 
-#: inc/admin.php:346
+#: inc/admin.php:335
 msgid "Tile Horizontally"
 msgstr ""
 
-#: inc/admin.php:347
+#: inc/admin.php:336
 msgid "Tile Vertically"
 msgstr ""
 
-#: inc/admin.php:354 inc/admin.php:357
+#: inc/admin.php:343 inc/admin.php:346
 msgid "Background Position"
 msgstr ""
 
-#: inc/admin.php:359 inc/admin.php:433
+#: inc/admin.php:348 inc/admin.php:422
 msgid "Left Top"
 msgstr ""
 
-#: inc/admin.php:360 inc/admin.php:434
+#: inc/admin.php:349 inc/admin.php:423
 msgid "Center Top"
 msgstr ""
 
-#: inc/admin.php:361 inc/admin.php:435
+#: inc/admin.php:350 inc/admin.php:424
 msgid "Right Top"
 msgstr ""
 
-#: inc/admin.php:362 inc/admin.php:436
+#: inc/admin.php:351 inc/admin.php:425
 msgid "Left Center"
 msgstr ""
 
-#: inc/admin.php:363 inc/admin.php:437
+#: inc/admin.php:352 inc/admin.php:426
 msgid "Center Center"
 msgstr ""
 
-#: inc/admin.php:364 inc/admin.php:438
+#: inc/admin.php:353 inc/admin.php:427
 msgid "Right Center"
 msgstr ""
 
-#: inc/admin.php:365 inc/admin.php:439
+#: inc/admin.php:354 inc/admin.php:428
 msgid "Left Bottom"
 msgstr ""
 
-#: inc/admin.php:366 inc/admin.php:440
+#: inc/admin.php:355 inc/admin.php:429
 msgid "Center Bottom"
 msgstr ""
 
-#: inc/admin.php:367 inc/admin.php:441
+#: inc/admin.php:356 inc/admin.php:430
 msgid "Right Bottom"
 msgstr ""
 
-#: inc/admin.php:388 inc/admin.php:391
+#: inc/admin.php:377 inc/admin.php:380
 msgid "Max Width"
 msgstr ""
 
-#: inc/admin.php:393
+#: inc/admin.php:382
 msgid "px"
 msgstr ""
 
-#: inc/admin.php:394
+#: inc/admin.php:383
 msgid "Enter the max width of the content."
 msgstr ""
 
-#: inc/admin.php:400
+#: inc/admin.php:389
 msgid "Box Content"
 msgstr ""
 
-#: inc/admin.php:406
+#: inc/admin.php:395
 msgid "This will add color behind your content creating a box."
 msgstr ""
 
-#: inc/admin.php:412 inc/admin.php:415
+#: inc/admin.php:401 inc/admin.php:404
 msgid "Box Color"
 msgstr ""
 
-#: inc/admin.php:417
+#: inc/admin.php:406
 msgid "None"
 msgstr ""
 
-#: inc/admin.php:418
+#: inc/admin.php:407
 msgid "White"
 msgstr ""
 
-#: inc/admin.php:419
+#: inc/admin.php:408
 msgid "Black"
 msgstr ""
 
-#: inc/admin.php:420
+#: inc/admin.php:409
 msgid "White 75%"
 msgstr ""
 
-#: inc/admin.php:421
+#: inc/admin.php:410
 msgid "Black 50%"
 msgstr ""
 
-#: inc/admin.php:428 inc/admin.php:431
+#: inc/admin.php:417 inc/admin.php:420
 msgid "Content Position"
 msgstr ""
 
-#: inc/admin.php:448 inc/admin.php:451
+#: inc/admin.php:437 inc/admin.php:440
 msgid "Title Color"
 msgstr ""
 
-#: inc/admin.php:458 inc/admin.php:461
+#: inc/admin.php:447 inc/admin.php:450
 msgid "Text Color"
 msgstr ""
 
-#: inc/admin.php:468 inc/admin.php:471
+#: inc/admin.php:457 inc/admin.php:460
 msgid "Link Color"
 msgstr ""
 
-#: inc/admin.php:478 inc/admin.php:481
+#: inc/admin.php:467 inc/admin.php:470
 msgid "Font Combinations"
 msgstr ""
 
-#: inc/admin.php:483
+#: inc/admin.php:472
 msgid "Theme Defaults"
 msgstr ""
 
-#: inc/admin.php:484
+#: inc/admin.php:473
 msgid "Libre Baskerville / Ubuntu"
 msgstr ""
 
-#: inc/admin.php:485
+#: inc/admin.php:474
 msgid "Bree Serif / Imprima"
 msgstr ""
 
-#: inc/admin.php:486
+#: inc/admin.php:475
 msgid "Montserrat / Pontano Sans"
 msgstr ""
 
-#: inc/admin.php:487
+#: inc/admin.php:476
 msgid "Oswald / Muli"
 msgstr ""
 
-#: inc/admin.php:488
+#: inc/admin.php:477
 msgid "Pt Serif / PT Sans"
 msgstr ""
 
-#: inc/admin.php:489
+#: inc/admin.php:478
 msgid "Vollkorn / Raleway Light"
 msgstr ""
 
-#: inc/admin.php:490
+#: inc/admin.php:479
 msgid "Roboto / Roboto Light"
 msgstr ""
 
-#: inc/admin.php:491
+#: inc/admin.php:480
 msgid "Josefin Slab / Maven Pro"
 msgstr ""
 
-#: inc/admin.php:492
+#: inc/admin.php:481
 msgid "Oxygen / Source Sans Pro"
 msgstr ""
 
-#: inc/admin.php:493
+#: inc/admin.php:482
 msgid "Paytone One / Droid Sans"
 msgstr ""
 
-#: inc/admin.php:496
+#: inc/admin.php:485
 msgid ""
 "You can choose one of these Google Font Combinations instead of you theme "
 "default fonts."
 msgstr ""
 
-#: inc/admin.php:516 inc/admin.php:519
+#: inc/admin.php:505 inc/admin.php:508
 msgid "Custom CSS"
 msgstr ""
 
-#: inc/admin.php:521
+#: inc/admin.php:510
 #, php-format
 msgid "Add your custom CSS here. No need to include the %s tag."
-msgstr ""
-
-#: inc/admin.php:527 inc/admin.php:530
-msgid "Custom Functions"
-msgstr ""
-
-#: inc/admin.php:534
-msgid ""
-"The plugin will do its best to hide the header and footer from the Coming "
-"Soon Page."
-msgstr ""
-
-#: inc/admin.php:535
-msgid ""
-"If you reposition something to customize your theme, it may not be "
-"recognized by the plugin."
-msgstr ""
-
-#: inc/admin.php:536
-msgid ""
-"You can write the functions you want the plugin to ignore separating them "
-"by commas. For instance, if you theme has something like..."
-msgstr ""
-
-#: inc/admin.php:542
-msgid "... this value should be: "
 msgstr ""
 
 #: plugin.php:54
@@ -380,11 +354,11 @@ msgid ""
 "\"%s\">Genesis %s</a>, or greater."
 msgstr ""
 
-#: plugin.php:128
+#: plugin.php:135
 msgid "Coming Soon Mode Active"
 msgstr ""
 
-#: plugin.php:131
+#: plugin.php:138
 msgid "Maintenance Mode Active"
 msgstr ""
 
@@ -398,12 +372,12 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Genesis Coming Soon allows you to create a simple coming soon page while "
+"Genesis Coming Soon allows you to create a simple soming soon page while "
 "keeping all features that Genesis offers."
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Jose Manuel Sanchez"
+msgid "QoSMicro"
 msgstr ""
 
 #. Author URI of the plugin/theme
